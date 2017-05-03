@@ -19,8 +19,8 @@ public class AlbumTest {
         singerList.add( Singer2 );
 
 
-        Album album1 = new Album( 1, "LALA" );
-        Album album2 = new Album( 2, "ZABUBU" );
+        Album album1 = new Album(  "LALA" );
+        Album album2 = new Album(  "ZABUBU" );
 
         albumList.add( album1 );
         albumList.add( album2 );

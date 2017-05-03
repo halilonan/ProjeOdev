@@ -6,18 +6,18 @@ import java.util.List;
 public class Album {
     public static List<Album> albumList = new ArrayList<Album>();
 
-    public int Id;
+
     public String AlbumName;
     public List<Song> songList;
 
-    public Album(int Id,String albumName, List<Song> songList) {
-        this.Id = Id;
+    public Album(String albumName, List<Song> songList) {
+
         AlbumName = albumName;
         this.songList = songList;
     }
 
-    public Album(int Id,String albumName) {
-        this.Id = Id;
+    public Album(String albumName) {
+
         AlbumName = albumName;
         this.songList = new ArrayList<Song>();
     }
